@@ -1,0 +1,66 @@
+.header-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  align-self: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.header-heading {
+  font-size: 33px;
+  font-family: 'Roboto';
+  color: #0a0809;
+}
+
+.button-item {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f52c79;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  font-family: 'Roboto';
+  position: absolute;
+  z-index: 1;
+  bottom: 1px;
+  right: -9px;
+  top: -9px;
+  color: #f7d7e4;
+}
+
+.larger-myorder-para {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .order-button-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .larger-myorder-para {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: bold;
+    color: #91867e;
+  }
+}

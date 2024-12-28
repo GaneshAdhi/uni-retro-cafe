@@ -1,0 +1,46 @@
+.list-slide-item {
+  list-style-type: none;
+}
+
+.button-slide {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  width: 180px;
+  font-size: large;
+  font-family: 'Roboto';
+  color: #121010;
+}
+
+.button-active {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  width: 180px;
+  font-size: large;
+  font-family: 'Roboto';
+  color: #fc2845;
+}
+
+.sperater-active {
+  width: 180px;
+  border: 2px solid #fc2845;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-slide {
+    font-size: 18px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sperater-active {
+    width: auto;
+  }
+}

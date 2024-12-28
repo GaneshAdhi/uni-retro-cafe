@@ -1,0 +1,142 @@
+.dish-item-card {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid #bfa8b3;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.card-first {
+  width: 40%;
+}
+
+.symbol-veg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00b512;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.dot-veg {
+  font-size: 14px;
+  font-weight: bold;
+  color: #00b512;
+  background-color: #00b512;
+  border-radius: 50%;
+}
+
+.symbol-non-veg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #820522;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.dot-non-veg {
+  font-size: 14px;
+  font-weight: bold;
+  color: #820522;
+  background-color: #820522;
+  border-radius: 50%;
+}
+
+.symbol-description-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+.symbol-dish-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.dish-name {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0a0002;
+}
+
+.currency {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #b1baba;
+}
+
+.price {
+  margin-left: 2px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #899191;
+}
+
+.button-card {
+  height: 40px;
+  width: 80px;
+  background-color: #00b512;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.button-style {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #cdf7f7;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-count {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #fafcfc;
+}
+
+.customization {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #14e0d6;
+}
+
+.not-available {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #e30910;
+}
+
+.calories {
+  font-size: 19px;
+  font-weight: bold;
+  color: #eb902f;
+  align-self: center;
+}
+
+.dish-img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
